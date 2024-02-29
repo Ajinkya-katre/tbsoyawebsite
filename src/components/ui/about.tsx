@@ -1,9 +1,10 @@
 import React from 'react';
+import { TextGenerateEffectDemo } from '../../pages/text-generator';
 
 function About() {
   return (
     <div >
-     <h1>About Page</h1>
+     <TextGenerateEffectDemo/>
     </div>
   );
 }
