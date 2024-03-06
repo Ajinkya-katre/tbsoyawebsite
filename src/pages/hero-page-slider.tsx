@@ -4,10 +4,18 @@ import React from "react";
 import { ImagesSlider } from "../components/ui/hero-page-slider";
 import herosliderimages from '../assets/json/hero-slider-images.json'
 
+import firstImg from '../assets/images/1.jpeg'
+import secondImg from '../assets/images/2.jpeg'
+import thirdImg from '../assets/images/3.jpeg'
+import fourthImg from '../assets/images/4.jpeg'
+import fifthImg from '../assets/images/5.jpeg'
+
 export function ImagesSliderDemo() {
 
+   const imagesSlider = [firstImg,secondImg,fourthImg,fifthImg,thirdImg]
+
   return (
-    <ImagesSlider className="h-[40rem]" images={herosliderimages}>
+    <ImagesSlider className="h-[40rem]" images={imagesSlider}>
       <motion.div
         initial={{
           opacity: 0,
