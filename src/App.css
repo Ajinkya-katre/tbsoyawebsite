@@ -2,4 +2,18 @@
     position: fixed;
     right: 20px;
     bottom: 20px;
+    z-index: 99;
+}
+
+.footer-container{
+    background: url("../src/assets/images/background-images/footer-background.jpg") no-repeat center;
+    color: #fff;
+}
+.card{
+    background-image: linear-gradient(to top, rgb(231, 229, 229) 0%, white 100%);
+}
+
+.navbar{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    z-index: 100;
 }

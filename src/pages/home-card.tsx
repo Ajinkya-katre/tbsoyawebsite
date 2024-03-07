@@ -1,11 +1,16 @@
 import { HoverEffect } from "../components/ui/home-card";
-import projects from '../assets/json/home-card.json'
 
+interface ProjectType {
+  project:{
+    title:string;
+    description:string;
+  }[]
+}
 
-export function CardHoverEffectDemo() {
+export function CardHoverEffectDemo(props: ProjectType) {
   return (
     <div className="max-w-5xl mx-auto px-2">
-      <HoverEffect items={projects} />
+      <HoverEffect items={props.project} />
     </div>
   );
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import { TextGenerateEffectDemo } from '../../pages/text-generator';
+import { CardHoverEffectDemo } from '../../pages/home-card';
+import projects from '../../assets/json/home-card.json'
 
 function About() {
   return (
     <div >
-     <TextGenerateEffectDemo/>
+      <CardHoverEffectDemo project={projects} />
+
     </div>
   );
 }
