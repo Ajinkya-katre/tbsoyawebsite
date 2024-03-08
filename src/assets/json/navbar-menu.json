@@ -1,0 +1,18 @@
+[
+    {
+      "menuName":"Home",
+      "menuLink":"/"
+    },
+    {
+      "menuName":"About Us",
+      "menuLink":"/about"
+    },
+    {
+      "menuName":"Gallery",
+      "menuLink":"/gallery"
+    },
+    {
+      "menuName":"Contact",
+      "menuLink":"/contact"
+    }
+]

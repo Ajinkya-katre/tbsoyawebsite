@@ -1,0 +1,26 @@
+{
+
+    "icons":[
+        {
+            "iconname":"fab fa-facebook m-3",
+            "iconlink":"/"
+        },
+        {
+            "iconname":"fab fa-instagram m-3",
+            "iconlink":"/"
+        },
+        {
+            "iconname":"fab fa-youtube m-3",
+            "iconlink":"/"
+        },
+        {
+            "iconname":"fab fa-twitter m-3",
+            "iconlink":"/"
+        }
+    ],
+    "content": {
+        "heading": "Let's keep in touch!",
+        "tagline": "Find us on any of these platforms, we respond 1-2 business days.",
+        "copyright": "Copyright © 2024 SAP;"
+    }
+}
