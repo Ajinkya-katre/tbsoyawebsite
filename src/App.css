@@ -6,7 +6,7 @@
 }
 
 .footer-container{
-    background: url("../src/assets/images/background-images/footer-background.jpg") no-repeat center;
+    background-color: gold ;
     color: #fff;
 }
 .card{
@@ -16,4 +16,8 @@
 .navbar{
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
     z-index: 100;
+}
+#logoImg{
+    height: 50px;
+    width: 100px;
 }
