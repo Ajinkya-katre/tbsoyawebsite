@@ -31,7 +31,7 @@ function Footer(){
             <ul className="list-unstyled">
               {navbarmenulist.map((menu,index)=>(
                 <li key={index}>
-                   <Link to={menu.menuLink} className=" hover:bg-sky-900 text-white rounded-md px-3 py-1 text-sm font-medium m-3" aria-current="page">{menu.menuName}</Link>
+                   <Link to={menu.menuLink} className=" hover:bg-sky-900 text-black rounded-md px-3 py-1 text-sm font-medium m-3" aria-current="page">{menu.menuName}</Link>
                 </li>
               ))}
               

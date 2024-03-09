@@ -14,5 +14,13 @@
     {
       "menuName":"Contact",
       "menuLink":"/contact"
-    }
+    },
+    {
+        "menuName":"Team",
+        "menuLink":"/team"
+    },
+    {
+      "menuName":"Product",
+      "menuLink":"/product"
+  }
 ]

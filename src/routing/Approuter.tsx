@@ -5,6 +5,8 @@ import About from '../components/ui/about';
 import MainLayout from '../layout/mainlayout';
 import Gallery from '../components/ui/gallery';
 import Contact from '../components/ui/contact';
+import Team from '../components/ui/Team/team';
+import Product from '../components/ui/Product/product';
 
 function Approuter() {
   return (
@@ -17,6 +19,8 @@ function Approuter() {
                 <Route path='/about' element={<About/>} />
                 <Route path='/gallery' element={<Gallery/>} />
                 <Route path='/contact' element={<Contact/>} />
+                <Route path='/team' element={<Team/>} />
+                <Route path='/product' element={<Product/>} />
 
             </Route>
         </Routes>

@@ -3,6 +3,16 @@ import React from "react";
 function Contact() {
   return (
     <div>
+		<div className="hero min-h-screen" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+			<div className="hero-overlay bg-opacity-60"></div>
+			<div className="hero-content text-center text-neutral-content">
+				<div className="max-w-md">
+				<h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+				<p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+				<button className="btn btn-primary">Get Started</button>
+				</div>
+			</div>
+		</div>
       <section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3785.84545827731!2d76.19106447497249!3d18.39988338267052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc5713a1fbe901b%3A0xc12665f2f142b857!2sTulja%20Bhavani%20Soya%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1709210212354!5m2!1sen!2sin" width="100%" height="550" style={{border:'0'}} loading="lazy"></iframe>
       </section>
