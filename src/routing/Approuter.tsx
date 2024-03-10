@@ -4,7 +4,7 @@ import Home from '../components/ui/home';
 import About from '../components/ui/about';
 import MainLayout from '../layout/mainlayout';
 import Gallery from '../components/ui/gallery';
-import Contact from '../components/ui/contact';
+import Contact from '../components/ui/Contact/contact';
 import Team from '../components/ui/Team/team';
 import Product from '../components/ui/Product/product';
 
