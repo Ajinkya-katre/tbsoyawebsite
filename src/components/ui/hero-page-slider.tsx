@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 
 export const ImagesSlider = ({
   images,
-  children,
+  children, 
   overlay = true,
   overlayClassName,
   className,
