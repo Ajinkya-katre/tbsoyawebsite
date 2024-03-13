@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import Home from '../components/ui/home';
+import Home from '../components/ui/Home/home';
 import About from '../components/ui/about';
 import MainLayout from '../layout/mainlayout';
 import Gallery from '../components/ui/gallery';
