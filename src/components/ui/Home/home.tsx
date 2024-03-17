@@ -4,6 +4,7 @@ import { CardHoverEffectDemo } from '../../../pages/home-card';
 import aboutCard from '../../../assets/json/about-card.json';
 import Testimonials from '../testimonials/testimonials';
 import Homecontent from './Home-content';
+import { Faq } from '../Faq/Faq';
 function Home() {
   return (
     <div >
@@ -11,7 +12,7 @@ function Home() {
         {/* <CardHoverEffectDemo project={aboutCard}/> */}
         <Homecontent />
         <Testimonials/>
-        
+        <Faq />
     </div>
   );
 }
