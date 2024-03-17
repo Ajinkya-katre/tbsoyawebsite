@@ -14,7 +14,7 @@ function Approuter() {
     <Router>
         <Routes>
             <Route element={<MainLayout/>}>
-
+ 
                 <Route path='/' element={<Home/>} />
                 <Route path='/about' element={<About/>} />
                 <Route path='/gallery' element={<Gallery/>} />
