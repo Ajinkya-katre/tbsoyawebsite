@@ -1,0 +1,26 @@
+[
+    {
+      "menuName":"Home",
+      "menuLink":"/"
+    },
+    {
+      "menuName":"About Us",
+      "menuLink":"/about"
+    },
+    {
+      "menuName":"Gallery",
+      "menuLink":"/gallery"
+    },
+    {
+      "menuName":"Contact",
+      "menuLink":"/contact"
+    },
+    {
+        "menuName":"Team",
+        "menuLink":"/team"
+    },
+    {
+      "menuName":"Product",
+      "menuLink":"/product"
+  }
+]
