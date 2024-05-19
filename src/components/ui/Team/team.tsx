@@ -37,7 +37,7 @@ export const Team = () => {
         </p>
       </div>
       <div className="grid gap-10 mx-auto lg:grid-cols-2 lg:max-w-screen-lg">
-        <div className="grid sm:grid-cols-2 h-48">
+        <div className="grid sm:grid-cols-2 h-48 w-full">
           <div className="relative w-full sm:h-72 h-44 max-h-full rounded shadow sm:h-auto">
             <img
               className="absolute object-cover w-full h-44 rounded"
@@ -45,7 +45,7 @@ export const Team = () => {
               alt="Person"
             />
           </div>
-          <div className="flex flex-col justify-center mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
+          <div className=" w-full mt-5 sm:mt-0 sm:p-5 sm:col-span-2">
             <p className="text-lg font-bold">Prashant Udhav Pawar</p>
             <p className="mb-4 text-xs text-gray-800">Director</p>
           </div>
